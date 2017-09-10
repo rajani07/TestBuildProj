@@ -16,8 +16,9 @@
     </parent>-->
 	<parent>
         <groupId>com.oracle.servicebus</groupId>
-        <artifactId>oracle-servicebus-plugin</artifactId>
+        <artifactId>sbar-project-common</artifactId>
         <version>12.2.1-1-0</version>
+		<relativePath>C:\oracle\SOABPM\osb\plugins\maven\com\oracle\servicebus\sbar-project-common\12.2.1.1\sbar-project-common-12.2.1.1.pom</relativePath>
     </parent>
     <groupId>ESSOSB</groupId>
     <artifactId>TestBuildProj</artifactId>
@@ -44,14 +45,16 @@
      <groupId>com.oracle.servicebus</groupId>
      <artifactId>oracle-servicebus-plugin</artifactId>
      <version>12.2.1-1-0</version>
-     <extensions>true</extensions>
+   </plugin>
+  <!-- <plugin>
+   <extensions>true</extensions>
      <configuration>
        <oracleHome>C:\oracle\SOABPM</oracleHome>
        <oracleServerUrl>http://localhost:7101</oracleServerUrl>
        <oracleUsername>weblogic</oracleUsername>
        <oraclePassword>welcome1</oraclePassword>
      </configuration>
-   </plugin>
+   </plugin>-->
  </plugins>
  </build>
  
