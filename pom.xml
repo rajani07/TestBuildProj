@@ -16,7 +16,12 @@
     <packaging>jar</packaging>
 
     <description/>
-
+<properties>
+       <oracleUsername>weblogic</oracleUsername>
+       <oraclePassword>welcome1</oraclePassword>
+       <oracleHome>C:\oracle\SOABPM</oracleHome>
+       <oracleServerUrl>http://localhost:7101</oracleServerUrl>
+   </properties>
 <repositories>
   <repository>
     <id>maven.oracle.com</id>
