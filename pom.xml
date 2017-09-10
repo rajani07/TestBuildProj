@@ -3,11 +3,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
+  <!--  <parent>
         <groupId>com.oracle.servicebus</groupId>
         <artifactId>sbar-project-common</artifactId>
         <version>12.2.1-1-0</version>
-    </parent>
+    </parent>-->
 
     <groupId>ESSOSB</groupId>
     <artifactId>TestBuildProj</artifactId>
