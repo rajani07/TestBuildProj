@@ -16,6 +16,17 @@
     <packaging>jar</packaging>
 
     <description/>
+	<plugins>
+
+   <plugin>
+     <configuration>
+       <oracleUsername>weblogic</oracleUsername>
+       <oraclePassword>welcome1</oraclePassword>
+       <oracleHome>C:\oracle\SOABPM</oracleHome>
+       <oracleServerUrl>http://localhost:7101</oracleServerUrl>
+     </configuration>
+   </plugin>
+ </plugins>
 <properties>
        <oracleUsername>weblogic</oracleUsername>
        <oraclePassword>welcome1</oraclePassword>
