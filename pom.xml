@@ -75,7 +75,7 @@
       <enabled>false</enabled>
     </snapshots>
    <!-- <url>https://maven.oracle.com</url>-->
-   <url>file/:C:\oracle\SOABPM\osb\plugins\maven</url>
+   <url>file//:C:\oracle\SOABPM\osb\plugins\maven</url>
     <layout>default</layout>
   </repository>
 </repositories>
@@ -83,7 +83,7 @@
   <pluginRepository>
     <id>maven.oracle.com</id>
    <!-- <url>https://maven.oracle.com</url>-->
-   <url>file/:C:\oracle\SOABPM\osb\plugins\maven</url>
+   <url>file//:C:\oracle\SOABPM\osb\plugins\maven</url>
   </pluginRepository>
 </pluginRepositories>
 
