@@ -45,6 +45,7 @@
      <groupId>com.oracle.servicebus</groupId>
      <artifactId>oracle-servicebus-plugin</artifactId>
      <version>12.2.1-1-0</version>
+	 <extensions>true</extensions>
    </plugin>
   <!-- <plugin>
    <extensions>true</extensions>
